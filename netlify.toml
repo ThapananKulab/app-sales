@@ -1,0 +1,6 @@
+[build]
+  publish = "build/web"
+  command = "flutter build web"
+
+[context.production.environment]
+  FLUTTER_VERSION = "2.2.3" # เปลี่ยนเป็นเวอร์ชัน Flutter ที่คุณใช้
